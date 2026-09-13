@@ -54,7 +54,7 @@
 
 ## 阶段二：后端基础
 
-- [ ] **06 了解 NestJS 项目结构**
+- [x] **06 了解 NestJS 项目结构**
   - 目标：理解 `main.ts`、Module、Controller、Service 的职责。
   - 命令：`npm.cmd --prefix backend run start:dev`，访问默认接口。
   - 文件：第 06 节讲义，只为解释调用链添加必要注释。
