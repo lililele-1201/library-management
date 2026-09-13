@@ -28,20 +28,20 @@
   - 验证：三份文档对 Axios、ISBN 唯一和阶段边界表述一致。
   - 提交：`docs: 添加项目路线与设计（add project roadmap and design）`
 
-- [ ] **03 初始化 NestJS 后端**
+- [x] **03 初始化 NestJS 后端**
   - 目标：用 Nest CLI 在 `backend/` 创建可运行的后端脚手架。
-  - 命令：`npx @nestjs/cli new backend --package-manager npm --skip-git`。
-  - 文件：`backend/package.json`、`backend/src/`、Nest、TypeScript、Jest 配置。
+  - 命令：`npx.cmd --yes @nestjs/cli@latest new backend --package-manager npm --skip-git --strict`。
+  - 文件：`backend/package.json`、`backend/src/`、Nest、TypeScript、Vitest、Oxlint 配置。
   - 调用链：npm → Nest CLI → 模板文件 → 安装后端依赖。
-  - 验证：`npm --prefix backend test` 和 `npm --prefix backend run build` 通过。
+  - 验证：`npm.cmd --prefix backend test` 和 `npm.cmd --prefix backend run build` 通过。
   - 提交：`chore: 初始化 NestJS 后端（scaffold NestJS backend）`
 
 - [ ] **04 初始化 React 前端**
   - 目标：用 Vite 在 `frontend/` 创建 React + TypeScript 脚手架。
-  - 命令：`npm create vite@latest frontend -- --template react-ts`、`npm install --prefix frontend`。
+  - 命令：`npm.cmd create vite@latest frontend -- --template react-ts`、`npm.cmd --prefix frontend install`。
   - 文件：`frontend/index.html`、`frontend/src/`、Vite、TypeScript、ESLint 配置。
   - 调用链：npm create → Vite 模板 → React TypeScript 项目 → 安装依赖。
-  - 验证：`npm --prefix frontend run lint` 和 `npm --prefix frontend run build` 通过。
+  - 验证：`npm.cmd --prefix frontend run lint` 和 `npm.cmd --prefix frontend run build` 通过。
   - 提交：`chore: 初始化 React 前端（scaffold React frontend）`
 
 - [ ] **05 检查并完善项目忽略文件**
@@ -56,7 +56,7 @@
 
 - [ ] **06 了解 NestJS 项目结构**
   - 目标：理解 `main.ts`、Module、Controller、Service 的职责。
-  - 命令：`npm --prefix backend run start:dev`，访问默认接口。
+  - 命令：`npm.cmd --prefix backend run start:dev`，访问默认接口。
   - 文件：第 06 节讲义，只为解释调用链添加必要注释。
   - 调用链：`main.ts` → `AppModule` → `AppController` → `AppService`。
   - 验证：能解释并访问 `http://localhost:3000` 的默认响应。
@@ -186,7 +186,7 @@
 
 - [ ] **22 测试所有后端接口**
   - 目标：使用真实 Nest 测试应用和测试 SQLite 串联完整 CRUD。
-  - 命令：运行 e2e、全部 Jest、Lint 和后端 build。
+  - 命令：运行 e2e、全部 Vitest、Oxlint 和后端 build。
   - 文件：CRUD e2e 测试、测试数据库配置、讲义。
   - 调用链：HTTP → Validation → Controller → Service → TypeORM → 测试 SQLite。
   - 验证：成功、400、404、409 场景全部通过。
@@ -196,7 +196,7 @@
 
 - [ ] **23 了解 React 项目结构**
   - 目标：理解 `index.html`、`main.tsx` 和 `App.tsx` 的启动关系。
-  - 命令：`npm --prefix frontend run dev`，查看浏览器和控制台。
+  - 命令：`npm.cmd --prefix frontend run dev`，查看浏览器和控制台。
   - 文件：第 23 节讲义，只添加解释所需注释。
   - 调用链：浏览器 → `index.html#root` → `main.tsx` → `<App />`。
   - 验证：能指出 React 挂载点并解释 StrictMode。
@@ -220,7 +220,7 @@
 
 - [ ] **26 安装并配置 Axios**
   - 目标：理解 Axios 实例、baseURL、超时和响应数据。
-  - 命令：`npm install axios --prefix frontend`，运行依赖和 build 检查。
+  - 命令：`npm.cmd --prefix frontend install axios`，运行依赖和 build 检查。
   - 文件：前端依赖清单、`src/api/http.ts`、Axios 配置测试、讲义。
   - 调用链：业务 API → Axios 实例 → HTTP 请求 → Promise 响应。
   - 验证：Axios 实例读取配置并能构造正确 URL。
@@ -356,7 +356,7 @@
   - 目标：确认单元测试和 e2e 测试可重复执行。
   - 命令：运行 backend test、test:e2e、test:cov。
   - 文件：测试运行说明和必要的测试修正。
-  - 调用链：Jest → 测试模块/应用 → 被测行为 → 断言。
+  - 调用链：Vitest → 测试模块/应用 → 被测行为 → 断言。
   - 验证：测试全部通过，输出没有未处理异常。
   - 提交：`test: 验证后端测试套件（verify backend test suite）`
 
@@ -370,7 +370,7 @@
 
 - [ ] **44 构建后端项目**
   - 目标：验证 TypeScript 后端可编译为 Node.js 产物。
-  - 命令：`npm --prefix backend run build`，检查 `backend/dist`。
+  - 命令：`npm.cmd --prefix backend run build`，检查 `backend/dist`。
   - 文件：后端构建讲义，不提交 `dist`。
   - 调用链：TypeScript 源码 → Nest build → JavaScript dist。
   - 验证：构建成功，产物被 Git 忽略。
@@ -378,7 +378,7 @@
 
 - [ ] **45 构建前端项目**
   - 目标：验证 React 前端可生成浏览器静态资源。
-  - 命令：`npm --prefix frontend run build`，检查 `frontend/dist`。
+  - 命令：`npm.cmd --prefix frontend run build`，检查 `frontend/dist`。
   - 文件：前端构建讲义，不提交 `dist`。
   - 调用链：TSX/CSS → TypeScript/Vite → HTML/CSS/JS 静态资源。
   - 验证：构建成功，产物被 Git 忽略。

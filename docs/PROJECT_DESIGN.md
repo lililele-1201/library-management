@@ -18,7 +18,7 @@ library-management/
 └─ TODO.md
 ```
 
-`backend` 和 `frontend` 各自维护 `package.json` 和依赖。初学阶段使用 `npm --prefix backend ...` 与 `npm --prefix frontend ...` 从根目录运行命令，先学清两个应用的边界，不引入 npm workspaces。
+`backend` 和 `frontend` 各自维护 `package.json` 和依赖。当前 PowerShell 环境使用 `npm.cmd --prefix backend ...` 与 `npm.cmd --prefix frontend ...` 从根目录运行命令，先学清两个应用的边界，不引入 npm workspaces。
 
 ## 3. 图书数据模型
 

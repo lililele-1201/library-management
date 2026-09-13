@@ -6,7 +6,7 @@
 
 - 后端：NestJS、TypeORM、SQLite
 - 前端：Vite、React、TypeScript、Axios、原生 CSS
-- 测试：Jest（后端）、Vitest + React Testing Library（前端）
+- 测试：Vitest（后端）、Vitest + React Testing Library（前端）
 - 版本管理：本地 Git 仓库
 
 ## 学习方式
@@ -21,7 +21,7 @@
 6. 更新 [`TODO.md`](TODO.md)。
 7. 单独创建一次 Git 提交。
 
-第 01、02 节已经完成并提交。下一步是第 03 节：初始化 NestJS 后端。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
+第 01 至 03 节已经完成并提交。下一步是第 04 节：初始化 React 前端。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
 
 ## 第一阶段范围
 
