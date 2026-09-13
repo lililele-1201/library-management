@@ -36,10 +36,10 @@
   - 验证：`npm.cmd --prefix backend test` 和 `npm.cmd --prefix backend run build` 通过。
   - 提交：`chore: 初始化 NestJS 后端（scaffold NestJS backend）`
 
-- [ ] **04 初始化 React 前端**
+- [x] **04 初始化 React 前端**
   - 目标：用 Vite 在 `frontend/` 创建 React + TypeScript 脚手架。
-  - 命令：`npm.cmd create vite@latest frontend -- --template react-ts`、`npm.cmd --prefix frontend install`。
-  - 文件：`frontend/index.html`、`frontend/src/`、Vite、TypeScript、ESLint 配置。
+  - 命令：`npx.cmd --yes create-vite@latest frontend --template react-ts`、`npm.cmd --prefix frontend install`。
+  - 文件：`frontend/index.html`、`frontend/src/`、Vite、TypeScript、Oxlint 配置。
   - 调用链：npm create → Vite 模板 → React TypeScript 项目 → 安装依赖。
   - 验证：`npm.cmd --prefix frontend run lint` 和 `npm.cmd --prefix frontend run build` 通过。
   - 提交：`chore: 初始化 React 前端（scaffold React frontend）`
