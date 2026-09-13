@@ -13,8 +13,13 @@ coverage/
 
 # SQLite runtime files
 *.sqlite
+*.sqlite-journal
 *.sqlite-shm
 *.sqlite-wal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
 
 # Logs
 *.log

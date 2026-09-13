@@ -44,7 +44,7 @@
   - 验证：`npm.cmd --prefix frontend run lint` 和 `npm.cmd --prefix frontend run build` 通过。
   - 提交：`chore: 初始化 React 前端（scaffold React frontend）`
 
-- [ ] **05 检查并完善项目忽略文件**
+- [x] **05 检查并完善项目忽略文件**
   - 目标：理解根目录和子目录 `.gitignore` 的作用范围。
   - 命令：`git check-ignore -v`、`git status --ignored --short`。
   - 文件：根 `.gitignore`，必要时整理脚手架生成的忽略文件。
