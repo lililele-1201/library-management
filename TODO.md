@@ -62,7 +62,7 @@
   - 验证：能解释并访问 `http://localhost:3000` 的默认响应。
   - 提交：`docs: 讲解 NestJS 项目结构（explain NestJS project structure）`
 
-- [ ] **07 安装和配置 TypeORM 基础依赖**
+- [x] **07 安装和配置 TypeORM 基础依赖**
   - 目标：分清 Nest 适配包、ORM 和 SQLite 驱动。
   - 命令：在 `backend` 安装 `@nestjs/typeorm typeorm sqlite3`。
   - 文件：`backend/package.json`、`backend/package-lock.json`、讲义。
