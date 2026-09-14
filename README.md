@@ -21,7 +21,7 @@
 6. 更新 [`TODO.md`](TODO.md)。
 7. 单独创建一次 Git 提交。
 
-第 01 至 07 节已经完成并提交。下一步是第 08 节：连接 SQLite 数据库。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
+第 01 至 08 节已经完成并提交。下一步是第 09 节：创建图书模块。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
 
 ## 第一阶段范围
 
@@ -42,4 +42,8 @@
   -> SQLite
 ```
 
-详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，本节讲义见 [`docs/learning/01-local-git.md`](docs/learning/01-local-git.md)。
+详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/08-connect-sqlite.md`](docs/learning/08-connect-sqlite.md)。
+
+## 本地数据库
+
+后端启动时会连接 `backend/data/library.sqlite`。它是运行时生成的本地 SQLite 数据库文件，已经被 Git 忽略；`backend/data/README.md` 用于保留并说明数据库目录。

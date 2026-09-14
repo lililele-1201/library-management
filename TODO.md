@@ -70,10 +70,10 @@
   - 验证：依赖树可解析，原有后端测试仍通过。
   - 提交：`chore: 安装 TypeORM 和 SQLite（install TypeORM and SQLite）`
 
-- [ ] **08 连接 SQLite 数据库**
+- [x] **08 连接 SQLite 数据库**
   - 目标：让 Nest 启动时建立 SQLite 连接。
   - 命令：启动后端并检查数据库文件。
-  - 文件：`app.module.ts` 数据源配置、数据库目录说明、讲义。
+  - 文件：TypeORM 兼容版本、`app.module.ts` 数据源配置、数据库目录说明、讲义。
   - 调用链：`AppModule` → `TypeOrmModule.forRoot` → sqlite3 → 数据库文件。
   - 验证：应用无连接错误，SQLite 文件生成且被 Git 忽略。
   - 提交：`feat: 连接 SQLite 数据库（connect SQLite database）`
