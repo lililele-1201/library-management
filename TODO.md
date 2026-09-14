@@ -78,7 +78,7 @@
   - 验证：应用无连接错误，SQLite 文件生成且被 Git 忽略。
   - 提交：`feat: 连接 SQLite 数据库（connect SQLite database）`
 
-- [ ] **09 创建图书模块**
+- [x] **09 创建图书模块**
   - 目标：为图书功能建立独立模块边界。
   - 命令：Nest CLI 分别生成 books module、controller、service。
   - 文件：`books.module.ts`、`books.controller.ts`、`books.service.ts` 及测试。

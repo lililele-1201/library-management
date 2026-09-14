@@ -21,7 +21,7 @@
 6. 更新 [`TODO.md`](TODO.md)。
 7. 单独创建一次 Git 提交。
 
-第 01 至 08 节已经完成并提交。下一步是第 09 节：创建图书模块。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
+第 01 至 09 节已经完成并提交。下一步是第 10 节：定义图书数据模型。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
 
 ## 第一阶段范围
 
@@ -42,7 +42,7 @@
   -> SQLite
 ```
 
-详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/08-connect-sqlite.md`](docs/learning/08-connect-sqlite.md)。
+详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/09-create-books-module.md`](docs/learning/09-create-books-module.md)。
 
 ## 本地数据库
 
