@@ -94,7 +94,7 @@
   - 验证：表包含 id、title、author、isbn、publishedYear 和时间字段。
   - 提交：`feat: 定义图书实体（define Book entity）`
 
-- [ ] **11 将 Book Repository 注入 Service**
+- [x] **11 将 Book Repository 注入 Service**
   - 目标：理解 `forFeature`、Repository token 和构造器注入。
   - 命令：运行 BooksService 聚焦测试。
   - 文件：`books.module.ts`、`books.service.ts`、Service 测试、讲义。
