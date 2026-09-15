@@ -102,7 +102,7 @@
   - 验证：测试模块能创建 Service，Repository 依赖清楚可见。
   - 提交：`feat: 注入图书仓库（inject Book repository）`
 
-- [ ] **12 创建新增图书 DTO**
+- [x] **12 创建新增图书 DTO**
   - 目标：定义 POST 请求允许接收的字段和校验规则。
   - 命令：安装 `class-validator class-transformer`，运行 DTO 测试。
   - 文件：`create-book.dto.ts`、DTO 测试、讲义。
