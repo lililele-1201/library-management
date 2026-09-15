@@ -183,7 +183,7 @@ M   已跟踪文件发生修改
 ## 本节提交命令
 
 ```powershell
-git add .gitignore README.md TODO.md docs/learning/05-git-ignore-rules.md
+git add .gitignore README.md TODO.md docs/learning/05-Git忽略规则.md
 git commit -m "chore: 完善项目忽略规则（complete project ignore rules）"
 ```
 

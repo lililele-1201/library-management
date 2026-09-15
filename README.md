@@ -42,7 +42,7 @@
   -> SQLite
 ```
 
-详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/10-define-book-entity.md`](docs/learning/10-define-book-entity.md)。
+详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/10-定义图书实体.md`](docs/learning/10-定义图书实体.md)。
 
 ## 本地数据库
 

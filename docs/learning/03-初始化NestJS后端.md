@@ -160,7 +160,7 @@ npm.cmd --prefix backend run build
 ## 本节提交命令
 
 ```powershell
-git add .gitattributes .gitignore README.md TODO.md docs/PROJECT_DESIGN.md backend docs/learning/03-nest-backend-scaffold.md
+git add .gitattributes .gitignore README.md TODO.md docs/PROJECT_DESIGN.md backend docs/learning/03-初始化NestJS后端.md
 git commit -m "chore: 初始化 NestJS 后端（scaffold NestJS backend）"
 ```
 

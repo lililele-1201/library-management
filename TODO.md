@@ -15,7 +15,7 @@
 - [x] **01 初始化本地 Git 仓库**
   - 目标：建立 `main` 分支仓库并理解工作区、暂存区和提交。
   - 命令：`git init -b main`、`git status`、`git add`、`git commit`。
-  - 文件：`.git/`、`.gitignore`、`docs/learning/01-local-git.md`。
+  - 文件：`.git/`、`.gitignore`、`docs/learning/01-初始化本地Git仓库.md`。
   - 调用链：工作区 → 暂存区 → Git 提交 → Git 历史。
   - 验证：分支为 `main`，提交只包含本节点文件。
   - 提交：`chore: initialize local Git repository`

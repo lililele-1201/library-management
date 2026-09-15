@@ -47,7 +47,7 @@ git init -b main
 library-management/
 ├─ .git/                  # Git 自动创建的仓库元数据
 ├─ docs/learning/
-│  └─ 01-local-git.md     # 本节讲义
+│  └─ 01-初始化本地Git仓库.md     # 本节讲义
 └─ .gitignore             # Git 忽略规则
 ```
 
@@ -76,7 +76,7 @@ git status --short
 ## 本节提交命令
 
 ```powershell
-git add .gitignore docs/learning/01-local-git.md
+git add .gitignore docs/learning/01-初始化本地Git仓库.md
 git commit -m "chore: initialize local Git repository"
 ```
 

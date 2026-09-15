@@ -266,7 +266,7 @@ backend/package-lock.json
 backend/data/README.md
   -> 保留 data 目录，说明数据库文件的用途和 Git 规则
 
-docs/learning/08-connect-sqlite.md
+docs/learning/08-连接SQLite数据库.md
   -> 保存本节完整讲义
 
 README.md
@@ -464,7 +464,7 @@ npm.cmd --prefix backend run start:dev
 先只暂存本节文件：
 
 ```powershell
-git add README.md TODO.md backend/package.json backend/package-lock.json backend/src/app.module.ts backend/data/README.md docs/learning/08-connect-sqlite.md
+git add README.md TODO.md backend/package.json backend/package-lock.json backend/src/app.module.ts backend/data/README.md docs/learning/08-连接SQLite数据库.md
 ```
 
 检查暂存内容：

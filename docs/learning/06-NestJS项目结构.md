@@ -246,7 +246,7 @@ POST /api/books
 ```text
 README.md
 TODO.md
-docs/learning/06-nest-project-structure.md
+docs/learning/06-NestJS项目结构.md
 ```
 
 `backend/src/` 没有修改。本节的重点是先读懂官方生成代码，避免在不了解调用链时直接加入数据库和 CRUD。
@@ -264,7 +264,7 @@ docs/learning/06-nest-project-structure.md
 ## 本节提交命令
 
 ```powershell
-git add README.md TODO.md docs/learning/06-nest-project-structure.md
+git add README.md TODO.md docs/learning/06-NestJS项目结构.md
 git commit -m "docs: 讲解 NestJS 项目结构（explain NestJS project structure）"
 ```
 

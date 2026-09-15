@@ -167,7 +167,7 @@ vite build
 ## 本节提交命令
 
 ```powershell
-git add README.md TODO.md frontend docs/learning/04-react-frontend-scaffold.md
+git add README.md TODO.md frontend docs/learning/04-初始化React前端.md
 git commit -m "chore: 初始化 React 前端（scaffold React frontend）"
 ```
 

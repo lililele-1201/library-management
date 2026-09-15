@@ -277,7 +277,7 @@ README.md
 TODO.md
 backend/package.json
 backend/package-lock.json
-docs/learning/07-typeorm-sqlite-dependencies.md
+docs/learning/07-TypeORM与SQLite依赖.md
 ```
 
 `backend/node_modules/` 有本地变化，但被 Git 忽略，不属于提交内容。构建生成的 `backend/dist/` 同样被忽略。
@@ -295,7 +295,7 @@ docs/learning/07-typeorm-sqlite-dependencies.md
 ## 十一、本节提交命令
 
 ```powershell
-git add README.md TODO.md backend/package.json backend/package-lock.json docs/learning/07-typeorm-sqlite-dependencies.md
+git add README.md TODO.md backend/package.json backend/package-lock.json docs/learning/07-TypeORM与SQLite依赖.md
 git diff --cached --check
 git commit -m "chore: 安装 TypeORM 和 SQLite（install TypeORM and SQLite）"
 ```
