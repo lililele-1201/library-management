@@ -110,7 +110,7 @@
   - 验证：缺少 title/author、年份非法或 ISBN 过长都会失败。
   - 提交：`feat: 定义新增图书 DTO（define create book DTO）`
 
-- [ ] **13 创建修改图书 DTO**
+- [x] **13 创建修改图书 DTO**
   - 目标：理解完整创建数据与部分更新数据的差异。
   - 命令：安装 `@nestjs/mapped-types`，运行修改 DTO 测试。
   - 文件：`update-book.dto.ts`、DTO 测试、讲义。

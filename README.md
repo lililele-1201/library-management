@@ -21,7 +21,7 @@
 6. 更新 [`TODO.md`](TODO.md)。
 7. 单独创建一次 Git 提交。
 
-第 01 至 12 节已经完成并提交。下一步是第 13 节：创建修改图书 DTO。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
+第 01 至 13 节已经完成并提交。下一步是第 14 节：配置请求参数验证。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
 
 ## 第一阶段范围
 
@@ -42,7 +42,7 @@
   -> SQLite
 ```
 
-详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/12-创建新增图书DTO.md`](docs/learning/12-创建新增图书DTO.md)。
+详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/13-创建修改图书DTO.md`](docs/learning/13-创建修改图书DTO.md)。
 
 ## 本地数据库
 
