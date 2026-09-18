@@ -21,7 +21,7 @@
 6. 更新 [`TODO.md`](TODO.md)。
 7. 单独创建一次 Git 提交。
 
-第 01 至 15 节已经完成并提交。下一步是第 16 节：测试驱动实现图书列表接口。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
+第 01 至 16 节已经完成并提交。下一步是第 17 节：测试驱动实现单本图书查询接口。后续严格按照 `TODO.md` 的七个阶段和节点编号学习。
 
 ## 第一阶段范围
 
@@ -42,7 +42,7 @@
   -> SQLite
 ```
 
-详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/15-实现新增图书接口.md`](docs/learning/15-实现新增图书接口.md)。
+详细架构约定见 [`docs/PROJECT_DESIGN.md`](docs/PROJECT_DESIGN.md)，最新讲义见 [`docs/learning/16-实现图书列表接口.md`](docs/learning/16-实现图书列表接口.md)。
 
 ## 本地数据库
 

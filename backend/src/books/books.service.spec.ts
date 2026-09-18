@@ -7,6 +7,7 @@ describe('BooksService', () => {
   let service: BooksService;
   const bookRepository = {
     create: vi.fn(),
+    find: vi.fn(),
     save: vi.fn(),
   };
 
@@ -52,5 +53,17 @@ describe('BooksService', () => {
       publishedYear: null,
     });
     expect(bookRepository.save).toHaveBeenCalledWith(book);
+  });
+
+  it('should return all books', async () => {
+    const books = [
+      { id: 1, title: '西游记', author: '吴承恩' },
+      { id: 2, title: '红楼梦', author: '曹雪芹' },
+    ] as Book[];
+
+    bookRepository.find.mockResolvedValue(books);
+
+    await expect(service.findAll()).resolves.toBe(books);
+    expect(bookRepository.find).toHaveBeenCalledOnce();
   });
 });

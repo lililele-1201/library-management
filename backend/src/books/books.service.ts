@@ -20,4 +20,8 @@ export class BooksService {
 
     return this.bookRepository.save(book);
   }
+
+  findAll(): Promise<Book[]> {
+    return this.bookRepository.find();
+  }
 }

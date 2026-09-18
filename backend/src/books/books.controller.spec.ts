@@ -7,6 +7,7 @@ describe('BooksController', () => {
   let controller: BooksController;
   const booksService = {
     create: vi.fn(),
+    findAll: vi.fn(),
   };
 
   beforeEach(async () => {
@@ -40,5 +41,17 @@ describe('BooksController', () => {
 
     await expect(controller.create(createBookDto)).resolves.toBe(book);
     expect(booksService.create).toHaveBeenCalledWith(createBookDto);
+  });
+
+  it('should return all books from the service', async () => {
+    const books = [
+      { id: 1, title: '西游记', author: '吴承恩' },
+      { id: 2, title: '红楼梦', author: '曹雪芹' },
+    ] as Book[];
+
+    booksService.findAll.mockResolvedValue(books);
+
+    await expect(controller.findAll()).resolves.toBe(books);
+    expect(booksService.findAll).toHaveBeenCalledOnce();
   });
 });
